@@ -10,12 +10,11 @@ public class App {
 		
 		Test test = new Test();
 		System.out.println("Referenzvariable: " + test);
-		// ausgabe("Referenzvariable: " + test);
+		ausgabe("Referenzvariable: " + test);
 		test.showAddress();
 	}
 
-// public static void ausgabe(String outStr) {
-// 	System.out.println(outStr);
-// }
-
+public static void ausgabe(String outStr) {
+	System.out.println(outStr);
+	}
 }
